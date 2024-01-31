@@ -16,7 +16,7 @@ describe("book.js", function () {
       assert.isFunction(createTitle);
     });
 
-    it.skip("should take in a title and return a modified title", function () {
+    it("should take in a title and return a modified title", function () {
       var bookIdea = createTitle("Storm's Awakening");
 
       assert.equal(bookIdea, "The Storm's Awakening");

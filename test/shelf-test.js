@@ -200,7 +200,7 @@ describe("shelf.js", function() {
   });
 
   describe("searchShelf", function() {
-    it.skip("should tell us if a title is on the shelf", function() {
+    it("should tell us if a title is on the shelf", function() {
       var hyperion = {
         title: "Hyperion",
         mainCharacter: { name: "The Shrike", age: null, pronouns: "they" },

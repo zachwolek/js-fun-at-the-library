@@ -14,15 +14,35 @@ function unshelfBook(bookTitle, sciFiShelf){
   return sciFiShelf
 }
 
-function listTitles(){}
+function listTitles(fantasyShelf){
+  var shelf = []
+  for (i = 0; i < fantasyShelf.length; i++){
+    shelf.push(fantasyShelf[i].title)
+  }
+  var titles = shelf.join(', ')
+  return titles
+}
 
-// var sciFiShelf = [];
-//   sciFiShelf.push(book);
-//   return sciFiShelf
+
+
+
+
+
+function searchShelf(bookShelf, title){
+  var shelf = []
+  for (i = 0; i < bookShelf.length; i++){
+    shelf.push(bookShelf[i].title)
+    console.log(`this will show the shelf: `, shelf)}
+if (shelf.includes(title)){
+return true
+} else {
+  return false
+}
+}
 
 module.exports = {
   shelfBook,
  unshelfBook,
   listTitles,
-  // searchShelf
+  searchShelf
 };

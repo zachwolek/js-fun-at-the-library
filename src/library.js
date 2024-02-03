@@ -6,3 +6,6 @@ module.exports = {
   // checkoutBook,
   // takeStock
 };
+
+
+//library.shelves[genre].length

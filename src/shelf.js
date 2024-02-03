@@ -24,21 +24,23 @@ function listTitles(fantasyShelf){
 }
 
 
-
-
-
-
 function searchShelf(bookShelf, title){
   var shelf = []
   for (i = 0; i < bookShelf.length; i++){
     shelf.push(bookShelf[i].title)
-    console.log(`this will show the shelf: `, shelf)}
+    }
 if (shelf.includes(title)){
 return true
 } else {
   return false
 }
 }
+
+// if (shelf[i].title.includes(bookTitle)){
+//   return true
+// } else {
+//   return false
+// }
 
 module.exports = {
   shelfBook,

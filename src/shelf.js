@@ -23,6 +23,7 @@ function listTitles(fantasyShelf){
   return titles
 }
 
+
 //I understand I probably could have put the listTitles() function instead of copy and pasting it 
 function searchShelf(bookShelf, title){
   var shelf = []
